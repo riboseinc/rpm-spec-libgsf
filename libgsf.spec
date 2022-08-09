@@ -2,7 +2,7 @@ Summary: GNOME Structured File library
 Epoch: 3
 Name: libgsf
 Version: 1.14.45
-Release: 1%{?dist}
+Release: 2%{?dist}
 Group: System Environment/Libraries
 License: LGPLv2
 Source: https://ftp.gnome.org/pub/gnome/sources/%{name}/1.14/%{name}-%{version}.tar.xz
@@ -75,6 +75,9 @@ rm -f $RPM_BUILD_ROOT%{_libdir}/*.la
 rm -rf $RPM_BUILD_ROOT
 
 %changelog
+* Mon Aug  8 2022 Jeffrey Lau <jeffrey.lau@ribose.com> - 1.14.45-2
+- Bump version
+
 * Thu Jun 18 2018 Ronald Tse <ronald.tse@ribose.com> - 1.14.43-1
 - Update to 1.14.43
 
